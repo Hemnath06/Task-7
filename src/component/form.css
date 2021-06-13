@@ -1,0 +1,189 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+section .imgBx:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(225deg,#e91e63,#03a9f4);
+	z-index: 1;
+	mix-blend-mode: screen;
+}
+
+section .imgBx{
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+section .imgBx img{
+	position: absolute;
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+    object-fit: cover;	
+}
+
+section .contentBx{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+}
+
+section .contentBx .formBx{
+	width: 50%;
+}
+
+h2{
+	color: #607d8b;
+	font-weight: 600;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #ff4584;
+	text-transform: uppercase;
+	display: inline-block; 
+	letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx{
+	margin-bottom: 20px;
+}
+
+section .contentBx .formBx .inputBx span{
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 5px;
+	display: inline-block;
+	color: #607d8b;
+	letter-spacing: 1px;
+}
+
+
+section .contentBx .formBx .inputBx input{
+	width: 100%;
+	padding: 10px 20px;
+	font-weight: 400;
+	outline: none;
+	border: 1px solid #607d8b;
+	font-size: 16px;
+	color: #607d8b;
+    background: transparent;
+    letter-spacing: 1px;
+    border-radius: 30px; 
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]{
+	background: #ff4584;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 500;
+	outline: none;
+	border:0;
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+	background: #f53677;
+}
+
+section .contentBx .formBx .option{
+	margin-bottom: 10px;
+	color: #607d8b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section .contentBx .formBx .inputBx p{
+	color: #607d8b;
+}
+
+section .contentBx .formBx .inputBx p a{
+	color: #ff4584;
+}
+
+section .contentBx .formBx .inputBx select{
+    width: 100%;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #607d8b;
+    border-radius:10px;
+    outline: none;
+    border:1px solid #607d8b;
+    letter-spacing: 1px;
+}
+
+
+
+section .contentBx .formBx .radio .check label{
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+section .contentBx .formBx .radio .check label span {
+    margin-left: 10px;
+}
+
+section .contentBx .formBx .radio .checkBx label{
+    margin-left: 30px;
+}
+
+section .contentBx .formBx .radio .checkBx label span {
+    margin-left: 7px;
+}
+
+section .contentBx .formBx .radio .check{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+
+section .contentBx .formBx .radio .checkBx{
+    margin-bottom: 20px;
+    padding: 5px 10px;
+
+}
+
+section .contentBx .formBx .radio .checkBx{
+    outline: none;
+}
+
+section .contentBx .formBx .radio .checkBx{
+    background: transparent;
+    border: 1px solid #607d8b;
+    border-radius: 20px;
+    padding: 12px 20px;
+    align-items: center;
+}
+
+section .contentBx .formBx .radio .check{
+    background: transparent;
+    border: 1px solid #607d8b;
+    border-radius: 20px;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+
+section .contentBx .formBx .radio span{
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 8px;
+	display: inline-block;
+	color: #607d8b;
+	letter-spacing: 1px;
+}
